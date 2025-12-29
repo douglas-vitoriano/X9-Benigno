@@ -14,3 +14,6 @@ gem "google_drive", "~> 3.0", ">= 3.0.7"
 
 # A fast and simple web server for Ruby/Rack applications.
 gem "thin", "~> 2.0", ">= 2.0.1" 
+
+# Puma is a concurrent web server for Ruby/Rack applications.
+gem "puma", "~> 7.1"
