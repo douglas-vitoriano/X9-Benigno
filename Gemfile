@@ -20,3 +20,11 @@ gem "puma", "~> 7.1"
 
 # A general server command for Rack applications.
 gem "rackup", "~> 2.3", ">= 2.3.1"
+
+# Loads environment variables from .env file into ENV in Ruby projects.
+gem "dotenv", "~> 3.2"
+
+group :test do
+  gem "rspec"
+  gem "simplecov"
+end
