@@ -17,3 +17,6 @@ gem "thin", "~> 2.0", ">= 2.0.1"
 
 # Puma is a concurrent web server for Ruby/Rack applications.
 gem "puma", "~> 7.1"
+
+# A general server command for Rack applications.
+gem "rackup", "~> 2.3", ">= 2.3.1"
